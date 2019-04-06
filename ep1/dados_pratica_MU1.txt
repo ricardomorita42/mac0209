@@ -1,0 +1,8 @@
+#Exp 1: Sensores em 10m,20m e 30m
+#Formato: Nome; tempo1; tempo2; tempo3
+Alexandre1; 5,69; 12,42 ; 18,23
+Alexandre2; 6,05; 12,54; 18,78
+Arthur1; 7,11; 12,14; 17,16
+Arthur2; 6,34; 10,36; 15,93
+Ricardo1; 7,08; 13,86; 19,91
+Ricardo2; 6,99; 13,44; 19,73
