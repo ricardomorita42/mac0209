@@ -70,9 +70,9 @@ while processing_queue:
         instantes.append(t_atual)
 
         linha_atual.append(round(float(t_atual),5))
-        linha_atual.append(ax[0])
-        linha_atual.append(ay[0])
-        linha_atual.append(az[0])
+        linha_atual.append(ax[i])
+        linha_atual.append(ay[i])
+        linha_atual.append(az[i])
 
         saida.write(",".join(str(x) for x in linha_atual))
         saida.write("\n")
