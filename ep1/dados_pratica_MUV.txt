@@ -1,0 +1,4 @@
+#Exp 1: Sensores em 10,20, e 30m
+#Formato: Nome; tempo1; tempo2; tempo3
+Alexandre1; 4,54; 8,11; 11,80
+Alexandre2; 4,49; 8,00; 10,97 
