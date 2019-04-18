@@ -9,7 +9,7 @@ import os
 
 processing_queue = []
 
-with os.scandir("./") as entries:
+with os.scandir(".") as entries:
     for entry in entries:
         if ".csv" in entry.name:
             processing_queue.append(entry.name)
@@ -17,7 +17,8 @@ with os.scandir("./") as entries:
 arq_entrada = processing_queue.pop()
 arq_saida = "resultados/proc_" + arq_entrada
 
-while processing_queue:
+while arq_entrada != []:
+    print(arq_entrada)
     # inic variaveis
     datas = []
     instantes = []
@@ -81,5 +82,10 @@ while processing_queue:
     #fechando io e preparando o proximo arquivo
     entrada.close()
     saida.close()
-    arq_entrada = processing_queue.pop()
-    arq_saida = "resultados/proc_" + arq_entrada
+
+    if processing_queue:
+        arq_entrada = processing_queue.pop()
+        arq_saida = "resultados/proc_" + arq_entrada
+
+    else:
+        arq_entrada = []
