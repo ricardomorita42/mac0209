@@ -7,8 +7,8 @@ import datetime
 import io
 import os
 
+# Encontra todos os .csv da pasta e põe numa lista
 processing_queue = []
-
 with os.scandir("./") as entries:
     for entry in entries:
         if ".csv" in entry.name:
@@ -17,6 +17,7 @@ with os.scandir("./") as entries:
 arq_entrada = processing_queue.pop()
 arq_saida = "resultados/proc_" + arq_entrada
 
+# Processando cada .csv:
 while processing_queue:
     # inic variaveis
     datas = []
