@@ -1,4 +1,4 @@
 #Exp 2: Sensores em 5, 10, 15, 20, 25 e 30m
 #Formato: Nome; tempo1; tempo2; tempo3; (...) tempo6
-Alexandre1; 3,15; 4,86; 6,70; 8,23; 9,72; 11,11 
-Alexandre2; 3,32; 5,31; 7,10; 8,78; 10,22; 11,88
+Alexandre1; 3.15; 4.86; 6.70; 8.23; 9.72; 11.11 
+Alexandre2; 3.32; 5.31; 7.10; 8.78; 10.22; 11.88
