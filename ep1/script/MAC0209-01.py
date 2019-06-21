@@ -2,7 +2,7 @@ import math
 import matplotlib.pyplot as plt
 
 def nexty(yt, vt, deltat):
-    return yt+vt*deltat
+    Return yt+vt*deltat
 
 def nextv(vt, g, deltat):
     return vt-g*deltat
