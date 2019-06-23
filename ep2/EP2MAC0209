@@ -1,0 +1,8 @@
+	Para poder determinar a acelerção da gravidade g, a altura máxima da bola entre dois impactos tem que ser medida pelo menos uma vez durante o experimento.Para facilitar as contas, é uma boa ideia escolher a altura inicial da bola.
+	Assumindo que  a perda de energia por impacto relativa k permaneça constante após cada quicada, é possível prever a altura máxima h2 da bola após o primeiro impacto com o piso.Sendo h1 a altura inicial então a altura máxima é dada por h2=k*h1.
+
+O tempo de queda livre da bola da sua altura h2 até o impacto é metade do tempo (delta)t entre dois impactos.Levando isso em consideração,e a equação da queda livre em consideração, g é obtido do modo a seguir:
+
+g=2*h_2/(0,5*(delta)t)²
+Ou também assim:
+g=4*k*h_1/((delta)t)²
